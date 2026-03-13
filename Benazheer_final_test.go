@@ -76,11 +76,6 @@ func hitungHuruf(kata string, targetKata string) int {
 		}
 	}
 	return jumlah
-	// for i := 0; i < len(kata); i++ {
-	// 	if kata[i] == targetKata[i] {
-	// 		jumlah++
-	// 	}
-	// }
 }
 
 // SOAL 4
@@ -95,3 +90,4 @@ func pyramid(inputPyramid int, startNum int) {
 		fmt.Println()
 	}
 }
+
